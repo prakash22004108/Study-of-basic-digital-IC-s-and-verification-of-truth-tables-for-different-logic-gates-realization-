@@ -58,15 +58,32 @@ Press the switches for inputs “A” and “B”. The switch is ON state when 1
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 Program:
-/*
-Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
-Output:
-RTL
 
-Result:
+```
+Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
+Developed by: PRAKASH.R
+RegisterNumber: 212222240074
+module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+xor(y4,a,b);
+nand(y5,a,b);
+nor(y6,a,b);
+xnor(y7,a,b);
+endmodule
+```
+
+# OUTPUT:
+
+![WhatsApp Image 2023-04-12 at 15 27 21](https://user-images.githubusercontent.com/120554177/231425037-009b061e-9ad3-4282-a5b6-537f6026044c.jpg)
+
+![WhatsApp Image 2023-04-12 at 15 27 27](https://user-images.githubusercontent.com/120554177/231425088-f056ec50-3fc6-4005-8e2b-bb588803f26a.jpg)
+
+![WhatsApp Image 2023-04-12 at 15 27 30](https://user-images.githubusercontent.com/120554177/231425152-e9114a7c-55f1-4f8b-bfe6-d67a28506352.jpg)
+
+
+# Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
